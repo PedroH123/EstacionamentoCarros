@@ -20,9 +20,15 @@
 
 <main>
 
+<ul class="nav nav-tabs">
+  <li role="presentation"><a href="index.html">Inicio</a></li>
+  <li role="presentation" class="active"><a href="busca.html">Carros Registrados</a></li>
+  <li role="presentation"><a href="saida.html">Carros Saidos</a></li>
+</ul>
+
   <div class="row">
     <div class="col-xs-12">
-      <input type="text" class="" id="buscar" placeholder="Digite a Placa">
+      <input type="text" class="" id="buscarNumero" placeholder="Digite a Placa">
     </div>
   </div>
 
@@ -32,10 +38,21 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col-xs-6">
+      <input type="text" class="" id="registro" placeholder="Nome" readonly>
+    </div>
+    <div class="col-xs-3">
+      <input type="text" class="" id="CodigoPlaca" placeholder="Placa" readonly>
+    </div>
+    <div class="col-xs-3">
+      <input type="text" class="" id="horas" placeholder="Entrada" readonly>
+    </div>
+  </div>
+  
+  <div class="row" id="botao">
 
-  <table class=".table-bordered" id="registro">
-
-  </table>
+  </div>
 
 </main>
 
